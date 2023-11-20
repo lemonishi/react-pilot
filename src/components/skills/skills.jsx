@@ -52,14 +52,14 @@ const skills = () => {
       <div className={`language-list${clickLang ? "-active" : ""}`}>
         <div className="skills">
           <img
-            src="/assets/python.svg"
+            src="./assets/python.svg"
             alt="Python"
           />
           <span>Python</span>
         </div>
         <div className="skills">
           <img
-            src="/assets/java.svg"
+            src="./assets/java.svg"
             alt="Java"
           />
           <span>Java</span>
