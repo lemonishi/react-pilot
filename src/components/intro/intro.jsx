@@ -13,7 +13,7 @@ const Intro = () => {
       </div>
       <div className="banner-container">
         <img
-          src="src/assets/intro-banner.png"
+          src="public\assets\intro-banner.png"
           alt="Intro Banner"
           className="intro-banner"
         />
