@@ -15,14 +15,14 @@ const NavBar = () => {
           className="nav-logo-url"
         >
           <img
-            src="public\assets\lemon.svg"
+            src="/assets/lemon.svg"
             alt="React Icon"
             className="nav-logo"
           />
         </a>
       </div>
       <img
-        src="public\assets\nav-icon.png"
+        src="/assets/nav-icon.png"
         alt="Nav Mobile Icon"
         className="nav-mobile-button"
         onClick={handleClick}
