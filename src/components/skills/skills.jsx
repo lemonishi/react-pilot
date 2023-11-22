@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from "react";
-import SkillTile from "./skilltile";
+import SkillTile from "./SkillTile.jsx";
 import "./skills.css";
 
 const Skills = () => {
