@@ -1,5 +1,6 @@
 import { useState } from "react";
 import React from "react";
+import SkillTile from "./skilltile";
 import "./skills.css";
 
 const skills = () => {
@@ -50,28 +51,40 @@ const skills = () => {
         </div>
       </div>
       <div className={`language-list${clickLang ? "-active" : ""}`}>
-        <div className="skills">
-          <img
-            src="./assets/python.svg"
-            alt="Python"
-          />
-          <span>Python</span>
-        </div>
-        <div className="skills">
-          <img
-            src="./assets/java.svg"
-            alt="Java"
-          />
-          <span>Java</span>
-        </div>
+        <SkillTile
+          src="./assets/python.svg"
+          alt="Python"
+          span="Python"
+        />
+        <SkillTile
+          src="./assets/java.svg"
+          alt="Java"
+          span="Java"
+        />
       </div>
       <div className={`frontend-list${clickFE ? "-active" : ""}`}>
-        <div className="skills">React</div>
-        <div className="skills">Tailwind</div>
+        <SkillTile
+          src="./assets/react.svg"
+          alt="React"
+          span="React"
+        />
+        <SkillTile
+          src="./assets/tailwind.svg"
+          alt="TailwindCSS"
+          span="Tailwind"
+        />
       </div>
       <div className={`backend-list${clickBE ? "-active" : ""}`}>
-        <div className="skills">Spring</div>
-        <div className="skills">Express</div>
+        <SkillTile
+          src="./assets/spring.svg"
+          alt="Spring"
+          span="Spring"
+        />
+        <SkillTile
+          src="./assets/express.svg"
+          alt="Express"
+          span="Express"
+        />
       </div>
     </div>
   );
