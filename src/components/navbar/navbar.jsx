@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 
-const NavBar = () => {
+const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => {
     setClick((click) => !click);
@@ -40,4 +40,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;

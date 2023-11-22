@@ -3,7 +3,7 @@ import React from "react";
 import SkillTile from "./skilltile";
 import "./skills.css";
 
-const skills = () => {
+const Skills = () => {
   const [clickLang, setClickLang] = useState(true);
   const handleClickLang = () => {
     setClickLang(true);
@@ -90,4 +90,4 @@ const skills = () => {
   );
 };
 
-export default skills;
+export default Skills;
